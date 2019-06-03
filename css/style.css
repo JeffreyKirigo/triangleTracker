@@ -13,6 +13,7 @@ button{
   }
   button :hover{
     color: burlywood;
+    size: 50%;
   }
 body{
   background-color: rgba(99, 132, 160, 0.685);
