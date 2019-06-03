@@ -1,0 +1,9 @@
+@import url('bootstrap.css');
+h1{
+  font-size: 50px;
+  font-family: cursive;
+  color: ghostwhite;
+}
+body{
+  background-color: rgba(99, 132, 160, 0.685);
+}
