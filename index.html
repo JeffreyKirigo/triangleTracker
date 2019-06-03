@@ -10,19 +10,21 @@
 
 </head>
 <div class= "container">
-<body class="card" id="bg-rgba(31, 65, 53, 0.63);">
-  <h1 class=" card bg-primary">TRIANGLE TRACKER</h1>
-  <p>Input your values below:</p>
+<body class="card" style="background-color: cornflowerblue">
+  <h1 class="jumbotron" style="background-color: cornflowerblue">TRIANGLE TRACKER</h1>
+  <p><em>Input your values below:</em></p>
+  <div class="jumbotron" style="background-color: aquamarine">
   <form action="index.html">
-    <input type="number" class="form-control"  label="firstSide"name="side A" id="A">
+    <input type="number" class="form-control" placeholder="First Dimensions" name="side A" id="A">
     <br>
-    <input type="number" class="form-control" label="secondSide" name="side B" id="B">
+    <input type="number" class="form-control"  name="side B" id="B">
     <br>
-    <input type="number" class="form-control" label="thirdSide" name="side C" id="C">
+    <input type="number" class="form-control" name="side C" id="C">
     <br>
     <button class="bg-success" type="submit" onclick="Answer() "><i class="fa fa-smile-o" aria-hidden="true"></i>
     </i>Answer</button>
       </form>
+  </div>
       <script src="js/triangle.js"></script>
 </body>
 </div>
