@@ -5,7 +5,9 @@ function Answer(){
   var sideA=parseFloat(document.getElementById("A").value);
   var sideB=parseFloat(document.getElementById("B").value);
   var sideC=parseFloat(document.getElementById("C").value);
-  
+  if(!sideA,!sideB,!sideC){
+    alert("Heee input a value");
+  }
   if(add(sideA,sideB,sideC)){
   alert("Not a triangle");
   }
