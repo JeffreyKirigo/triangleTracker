@@ -16,6 +16,14 @@ if two of the side are equal then results **Isosceles triangle**
 if one input is less than the sum of the first two inputs or equal to then **not  triangle**
 If no dimensions input**input a value**
 if all the dimensions differ **scalene triangle**
+
+|Behaviour                  | Input       | Output              |
+|--------------------------:|:-----------:|:--------------------
+|Not a triangle             | a+b<=c       | cannot form         
+|Triangle with equal sides  |a=b=c        | Equilateral triangle
+|Triangle with 2 equal sides| a+b b+c c+a | Isosceles triangle 
+|Triangle with no equal side| a!==b!==c   | Scalene triangle  
+  
 ### Technologies used.
 bootstrap
 css
