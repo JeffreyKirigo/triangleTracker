@@ -16,6 +16,19 @@ button{
     size: 50%;
   }
 img{
+  size: 12px;
   border-radius: 18px;
   float: right;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../image/ello-optimized-834e2558.jpeg)
+}
+p{
+  color: blue;
+}
+.jumbotron{
+  opacity: 0.8;
 }
