@@ -5,19 +5,19 @@ function Answer(){
   var sideA=parseFloat(document.getElementById("A").value);
   var sideB=parseFloat(document.getElementById("B").value);
   var sideC=parseFloat(document.getElementById("C").value);
-  
+  var arr=['Equilateral triangle','An Isosceles triangle','scalene']
     
   if(!sideA,!sideB,!sideC){
     alert("Heee input a value");
   }
   else if (sideA===sideB && sideC===sideA){
-  alert("Equilateral triangle");
+  alert(arr[0]);
   }
   else if (sideA===sideB || sideC===sideA){
-  alert("An Isosceles triangle");
+  alert(arr[1]);
   }
   else if (sideA!==sideB && sideC!==sideA){
-  alert("scalene");
+  alert(arr[2]);
   }
   else if(!add()){
     alert("Not a triangle");
