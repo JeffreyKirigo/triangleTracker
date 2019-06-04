@@ -1,5 +1,5 @@
 # Project name.
-###t  riangle tracker
+### triangle tracker
 ##  Project description.
 This project is mainly a javascript browerser program that can identify a if an object is a triangle or not being given the dimensions as inputs. To be more precise it show which type of triangle it is.
 ### Author(s) information.
