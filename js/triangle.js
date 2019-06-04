@@ -8,7 +8,7 @@ function Answer(){
   if(!sideA,!sideB,!sideC){
     alert("Heee input a value");
   }
-  else if(add()){
+  else if(!add()){
   alert("Not a triangle");
   }
   else if (sideA===sideB && sideC===sideA){
